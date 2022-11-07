@@ -1,5 +1,5 @@
 # Import required modules
-import gspread
+from gsheetsdb import connect
 from oauth2client.service_account import ServiceAccountCredentials
 from pprint import pprint
 
